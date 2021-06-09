@@ -1,0 +1,47 @@
+.notes {
+  display: flex;
+  flex: 1;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.notes-space {
+  justify-content: center;
+}
+
+.note {
+  width: 400px;
+  padding: 10px;
+  background-color: floralwhite;
+  margin: 10px;
+  box-shadow: 5px 10px 20px gray;
+  border-radius: 10px;
+}
+
+.note-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-date {
+  border-top-width: 1px;
+  border-top-color: rgb(235, 235, 235);
+  border-top-style: solid;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+}
+
+.note-title-icon {
+  font-size: 25px;
+}
+
+.form-option-square {
+  height: 15px;
+  width: 15px;
+}
+
+.favorite-star {
+  color: gold;
+}
